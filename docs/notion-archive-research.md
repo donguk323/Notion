@@ -29,6 +29,7 @@
 <tr><td>미래의 나에게 표지판을 남긴다</td><td>Forte, Progressive Summarization: 미래의 나를 위한 신호와 발견 가능성</td><td>3층 구조, 토글로 검산층 분리</td></tr>
 <tr><td>제목은 API처럼</td><td>Matuschak, Evergreen notes: 잘 지은 제목이 노트 전체의 손잡이가 된다</td><td>제목에 결론을 싣는 규칙 유지</td></tr>
 <tr><td>결정은 덮어쓰지 않고 대체한다</td><td>Nygard(2011) ADR: Status, Superseded, Context, Consequences</td><td>2절 변경 줄, 7절 뺀 것</td></tr>
+<tr><td>설명하다 막히는 곳이 모르는 곳</td><td>파인만이 신입생 강의 수준으로 못 풀면 '아직 이해 못 한 것'이라 한 일화(동료 Goodstein 회고). '파인만 테크닉'이라는 4단계 이름은 2011년 Scott Young의 글에서 처음 보인다. 설명 깊이의 착각(Rozenblit & Keil, 2002): 원리를 안다고 믿다가 설명해 보라고 하면 그제야 모른다는 걸 알게 된다</td><td>개념·학습 유형의 **쉽게** 한 줄, 비유의 한계, 「확인 필요」의 이해 막힘, 자가점검 9번</td></tr>
 <tr><td>육하원칙 + 얼마(5W2H)</td><td>국내 공문서 작성 지침(교육청 공문서 작성법 등): 육하원칙으로 구체화, 비용은 HOW MUCH 추가</td><td>5절 W 배치표, '얼마' 라벨</td></tr>
 </table>
 
@@ -70,8 +71,9 @@
 <details>
 <summary>🧾 출처 확인 수준</summary>
 
+- **기억에 기댐(원문·검색 모두 미확인)**: Rozenblit & Keil(2002)
 - **본문을 직접 읽음**: Anthropic 스킬 작성 모범사례, Notion 공식 knowledge-capture·research-documentation SKILL.md, Notion MCP enhanced markdown 사양, 사용자 노션의 「PREP / BLUF」·「전역프롬프트 수정」·「경량 PARA 운영 가이드」·아카이브 페이지 2건
-- **검색 결과 요약만 확인**: NN/g, Whittaker 외, Furnas 외, Pirolli & Card, Bransford & Johnson, Hartley & Trueman, Lorch, Minto, Forte, Matuschak, Nygard, Bergman & Whittaker, 국내 공문서 작성 지침, Obsidian 계열 스킬
+- **검색 결과 요약만 확인**: 파인만 일화·Scott Young(2011), NN/g, Whittaker 외, Furnas 외, Pirolli & Card, Bransford & Johnson, Hartley & Trueman, Lorch, Minto, Forte, Matuschak, Nygard, Bergman & Whittaker, 국내 공문서 작성 지침, Obsidian 계열 스킬
 </details>
 
 ## 🔗 출처
