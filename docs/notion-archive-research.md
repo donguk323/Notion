@@ -29,7 +29,10 @@
 <tr><td>미래의 나에게 표지판을 남긴다</td><td>Forte, Progressive Summarization: 미래의 나를 위한 신호와 발견 가능성</td><td>3층 구조, 토글로 검산층 분리</td></tr>
 <tr><td>제목은 API처럼</td><td>Matuschak, Evergreen notes: 잘 지은 제목이 노트 전체의 손잡이가 된다</td><td>제목에 결론을 싣는 규칙 유지</td></tr>
 <tr><td>결정은 덮어쓰지 않고 대체한다</td><td>Nygard(2011) ADR: Status, Superseded, Context, Consequences</td><td>2절 변경 줄, 7절 뺀 것</td></tr>
-<tr><td>결론 콜아웃에 P와 R, 본문은 PREP + 개조식, 짧은 문장</td><td>사용자 지정 규칙(2026-09-29). 결론과 핵심 이유를 맨 먼저 두면 문서의 목적이 즉시 드러나고, 개조식과 짧은 문장은 단락별로 끊어 읽게 한다. 국내 공문서 작성 지침의 개조식·두괄식 관행(검색 요약)과 같은 방향이다</td><td>4절 결론 콜아웃(P·R 2~3개), 6절 PREP 블록 매핑과 3~5 압축, 문장 규칙(40자 안팎, 60자 초과 분리), 자가점검 10번</td></tr>
+<tr><td>핵심 항목·블록·불릿은 3~5개</td><td>Cowan(2001, Behavioral and Brain Sciences): 작업기억이 한 번에 붙잡는 덩어리는 성인 평균 약 4개, 대략 3~5개. Miller(1956)의 7±2는 대략적 수사에 가깝다고 재검토</td><td>6절 3~5 압축 규칙, 결론 콜아웃의 R 2~3개</td></tr>
+<tr><td>짧은 문장과 훑어 읽기 좋은 구조</td><td>Morkes & Nielsen(1997): 간결한 글 +58%, 훑어 읽기 좋은 배치 +47%, 합치면 사용성 124% 향상. GOV.UK 작성 지침: 문장은 15~20단어, 25단어를 넘기지 않는다. 문장 길이는 한국어 이독성 연구에서도 난이도 요인으로 쓰인다(KCI 이독성 연구들). 다만 한국어에서 '몇 자'라는 문턱값을 실험으로 정한 연구는 찾지 못했다. 신문 독자 이해도(8단어 100%, 14단어 90%)로 흔히 인용되는 American Press Institute 수치는 방법론이 확인되지 않아 쓰지 않는다</td><td>40자 안팎·60자 초과 분리는 영어 권고를 옮긴 실무 기준이다. 연구로 정해진 숫자가 아니다. 그래서 '쉼표 두 개 이상이면 나눈다'는 확인하기 쉬운 기준을 함께 둔다</td></tr>
+<tr><td>페이지에는 확인된 것만</td><td>사용자 지정 규칙(2026-09-29): 매번 보이는 미확인·검증 표기가 읽기를 방해한다. 표기를 붙여 남기는 대신 싣지 않거나 할 일로 바꾼다</td><td>2절 '확인된 것만 싣는다', 4절 기준일만 표기, 할 일 절, 9절 추정값 조건문, 12절 뺀 내용은 채팅 보고</td></tr>
+<tr><td>결론 콜아웃에 P와 R, 본문은 PREP + 개조식, 짧은 문장</td><td>사용자 지정 규칙(2026-09-29). 결론과 핵심 이유를 맨 먼저 두면 문서의 목적이 즉시 드러나고, 개조식과 짧은 문장은 단락별로 끊어 읽게 한다. 국내 공문서 작성 지침의 개조식·두괄식 관행(검색 요약)과 같은 방향이다</td><td>4절 결론 콜아웃(P·R 2~3개), 6절 PREP 블록 매핑, 문장 규칙, 자가점검 10번</td></tr>
 <tr><td>설명하다 막히는 곳이 모르는 곳</td><td>파인만이 신입생 강의 수준으로 못 풀면 '아직 이해 못 한 것'이라 한 일화(동료 Goodstein 회고). '파인만 테크닉'이라는 4단계 이름은 2011년 Scott Young의 글에서 처음 보인다. 설명 깊이의 착각(Rozenblit & Keil, 2002): 원리를 안다고 믿다가 설명해 보라고 하면 그제야 모른다는 걸 알게 된다</td><td>개념·학습 유형의 **쉽게** 한 줄, 비유의 한계, 「확인 필요」의 이해 막힘, 자가점검 9번</td></tr>
 <tr><td>육하원칙 + 얼마(5W2H)</td><td>국내 공문서 작성 지침(교육청 공문서 작성법 등): 육하원칙으로 구체화, 비용은 HOW MUCH 추가</td><td>5절 W 배치표, '얼마' 라벨</td></tr>
 </table>
@@ -74,10 +77,15 @@
 
 - **기억에 기댐(원문·검색 모두 미확인)**: Rozenblit & Keil(2002)
 - **본문을 직접 읽음**: Anthropic 스킬 작성 모범사례, Notion 공식 knowledge-capture·research-documentation SKILL.md, Notion MCP enhanced markdown 사양, 사용자 노션의 「PREP / BLUF」·「전역프롬프트 수정」·「경량 PARA 운영 가이드」·아카이브 페이지 2건
-- **검색 결과 요약만 확인**: 파인만 일화·Scott Young(2011), NN/g, Whittaker 외, Furnas 외, Pirolli & Card, Bransford & Johnson, Hartley & Trueman, Lorch, Minto, Forte, Matuschak, Nygard, Bergman & Whittaker, 국내 공문서 작성 지침, Obsidian 계열 스킬
+- **검색 결과 요약만 확인**: Cowan(2001), Morkes & Nielsen(1997), GOV.UK 문장 길이 권고, KCI 이독성 연구, 파인만 일화·Scott Young(2011), NN/g, Whittaker 외, Furnas 외, Pirolli & Card, Bransford & Johnson, Hartley & Trueman, Lorch, Minto, Forte, Matuschak, Nygard, Bergman & Whittaker, 국내 공문서 작성 지침, Obsidian 계열 스킬
 </details>
 
 ## 🔗 출처
+
+- [The magical number 4 in short-term memory](https://philpapers.org/rec/COWTMN) — Cowan, Behavioral and Brain Sciences 24(1)(2001)
+- [Concise, SCANNABLE, and Objective: How to Write for the Web](https://www.nngroup.com/articles/concise-scannable-and-objective-how-to-write-for-the-web/) — Morkes & Nielsen, NN/g(1997)
+- [Use clear language](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-language/) — GOV.UK 작성 지침
+- [교육용 텍스트의 이독성 평가를 위한 양적 준거 연구](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002843793) — KCI
 
 - [Skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) — Anthropic
 - [knowledge-capture SKILL.md](https://github.com/makenotion/notion-cookbook/tree/main/skills/claude/knowledge-capture) — Notion(makenotion)
